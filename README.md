@@ -1,63 +1,32 @@
-﻿# D171：[WIFI通信强化](https://github.com/OS-Q/D171)
-
+﻿# [WiFi终端S](https://github.com/OS-Q/D149)
 [![sites](OS-Q/OS-Q.png)](http://www.OS-Q.com)
-
-####  qitas@qitas.cn
-
-#### 归属部署网关：[W25](https://github.com/OS-Q/W25)
-
+#### 归属入网终端：[W22](https://github.com/OS-Q/W22)
 #### 关于系统架构：[OS-Q](https://github.com/OS-Q/OS-Q)
+Edge-Q -> 体系 Q[1,4] -> 节点 M[1,12] -> 平台 W[1,52] -> 设备 D[1,365]
+### [设备描述](https://github.com/OS-Q/D149/wiki) 
 
-## [设备描述](https://github.com/OS-Q/D171/wiki) 
+设备相关资源
 
-WIFI通信强化设备，接入WIFI设备和数据，作为计算平台可以部署软体
+- [ESP8266](https://github.com/sochub/ESP8266)
 
----
+### [设备资源](https://github.com/OS-Q/D149) 
 
-### [资源](OS-Q/)
+- [资源](src/)
+- [文档](docs/)
+- [工程](project/)
 
+### [设备相关](https://github.com/OS-Q/D149) 
 
-
----
-
-
-
-## [同级设备](https://github.com/OS-Q/W25/wiki)
-
-- 边缘设备命名规则：体系 Q:[1,4] -> 节点 M:[1,12] -> 平台 W:[1,52] -> 设备 D:[1,365]
-
-- naming patterns：system Q[1,4] -> node M[1,12] -> platform W[1,52] -> device D[1,365]
-
-#### D169：[sub1G通信强化](https://github.com/OS-Q/D169)
-
-
-
-#### D170：[蓝牙通信强化](https://github.com/OS-Q/D170)
+* W22：[设备入网](https://github.com/OS-Q/W22)
+    * D148：[以太网终端](https://github.com/OS-Q/D148)
+    * D149：[WiFi终端S](https://github.com/OS-Q/D149)
+    * D150：[WiFi终端L](https://github.com/OS-Q/D150)
+    * D151：[WiFi终端A](https://github.com/OS-Q/D151)
+    * D152：[NB终端S](https://github.com/OS-Q/D152)
+    * D153：[NB终端A](https://github.com/OS-Q/D153)
+    * D154：[GSM终端](https://github.com/OS-Q/D154)
 
 
-
-#### [D171：WIFI通信强化](https://github.com/OS-Q/D171)
-
-
-
-#### D172：[GSM通信强化](https://github.com/OS-Q/D172)
-
-
-
-#### D173：[LTE通信强化](https://github.com/OS-Q/D173)
-
-
-
-#### D174：[板级设备](https://github.com/OS-Q/D174)
-
-
-
-#### D175：[板级设备](https://github.com/OS-Q/D175)
-
-
----
-
-###  [OS-Q: operation system for edge device cluster](http://www.OS-Q.com)
-####  2019-3-21
-
+### [OS-Q : Operation System for edge devices](http://www.OS-Q.com/Edge/D149)
+####  2019-5-3 
 
