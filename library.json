@@ -1,0 +1,17 @@
+{
+  "name":"Servo",
+  "description":"Servo",
+  "keywords":"Servo,Control",
+  "version": "1.0.0",
+  "authors": {
+    "name":  "qitas",
+    "email": "qitas@qitas.cn",
+    "url": "http://arduino.qitas.cn"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/OS-Q/D85.git"
+  },
+  "frameworks": "arduino",
+  "platforms":"espressif,esp8266,esp32,nrf52,stm32"
+}
