@@ -4,8 +4,8 @@
 #define VERSION_EXAMPLE "1.0"
 
 #if defined(ESP8266)
-const int SERVO1_PIN = 5;
-const int SERVO2_PIN = 4; 
+const int SERVO1_PIN = 12;
+const int SERVO2_PIN = 15; 
 #elif defined(ESP32)
 const int SERVO1_PIN = 5;
 const int SERVO2_PIN = 18;
