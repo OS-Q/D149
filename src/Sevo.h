@@ -26,8 +26,8 @@
     detach()    - Stops an attached servos from pulsing its i/o pin. 
  */
 
-#ifndef Servo_h
-#define Servo_h
+#ifndef Sevo_h
+#define Sevo_h
 
 #include <inttypes.h>
 
@@ -44,8 +44,6 @@
 #include "stm32f4/ServoTimers.h"
 #elif defined(ARDUINO_ARCH_NRF52)
 #include "nrf52/ServoTimers.h"
-#else
-#error "This library supports boards with NRF52 or STM32F4 processor."
 #endif
 
 #define Servo_VERSION           1     // software version of this library
