@@ -1,45 +1,10 @@
-#
-# Some common rules
-#
-.*
-*.o
-#*.a
-#*.s
-*.ko
-*.so
-*.so.dbg
-*.i
-*.lst
-*.symtypes
-*.gz
-*.bz2
-*.lzma
-*.xz
-*.lz4
-*.lzo
-*.patch
-
-core
-core.*
-
-#
-# Backup files
-#
-*.orig
-*~
-\#*#
-
-#
-# python
-#
 *.pyc
-
-#
-# git files that we don't want to ignore even it they are dot-files
-#
-!.gitignore
-
-.pioenvs
-.piolibdeps
-.clang_complete
-.gcc-flags.json
+*__py*/
+*.pio/
+*.vscode/
+*.rst
+*.rel
+*.sym
+*.lst
+*.asm
+README

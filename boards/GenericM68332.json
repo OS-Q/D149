@@ -1,0 +1,19 @@
+{
+  "build": {
+    "extra_flags": "-DREENTRANT_SYSCALLS_PROVIDED -D_REENT_SMALL",
+    "mcu": "68332",
+    "f_cpu": "16000000L"
+  },
+  "frameworks": [
+  ],
+  "upload": {
+    "flash_size": "4MB",
+    "maximum_ram_size": 327680,
+    "maximum_size": 4194304,
+    "require_upload_port": true,
+    "speed": 115200
+  },
+  "name": "Generic 68332",
+  "url": "www.nxp.com/docs/en/data-sheet/MC68332TS.pdf",
+  "vendor": "Freescale"
+}
