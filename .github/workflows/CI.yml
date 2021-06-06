@@ -56,8 +56,8 @@ jobs:
       matrix:
         example:
           - "hello"
-        # package: ["pio","qio"]
-        os: [ubuntu-16.04, windows-latest]
+        package: ["pio","qio"]
+        os: [ubuntu-18.04, ubuntu-latest, windows-latest]
     runs-on: ${{ matrix.os }}
     steps:
       - uses: actions/checkout@v2
@@ -70,14 +70,14 @@ jobs:
         with:
           python-version: 3.7
 
-      # - name: Install qio
-      #   if: matrix.package == 'qio'
-      #   run: |
-      #     pip install -U https://github.com/OS-Q/M03/releases/latest/download/qio.zip
-      #     qio platform install file://.
+      - name: Install qio
+        if: matrix.package == 'qio'
+        run: |
+          pip install -U https://github.com/OS-Q/M03/releases/latest/download/qio.zip
+          qio platform install file://.
 
       - name: Install pio
-        # if: matrix.package == 'pio'
+        if: matrix.package == 'pio'
         run: |
           pip install -U https://github.com/platformio/platformio/archive/develop.zip
           pio platform install file://.
